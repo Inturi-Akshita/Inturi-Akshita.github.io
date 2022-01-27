@@ -1,0 +1,69 @@
+#my-canvas {
+    padding: 80px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+#heading {
+    padding-top: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 3px 3px rgb(248, 237, 74);
+    color: rgb(185, 5, 5);
+}
+
+.row {
+    align-content: center;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#kick {
+    background-color: darkolivegreen;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#punch {
+    background-color: darkolivegreen;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#forward {
+    background-color: darkorchid;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#backward {
+    background-color: darkorchid;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#block {
+    background-color: darkorchid;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.bg {
+    background-size: 100% 100%;
+}
+  
