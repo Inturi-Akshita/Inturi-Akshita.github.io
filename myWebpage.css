@@ -25,13 +25,6 @@ body {
 	overflow: auto;
 }
 
-#alert_message {
-    background-color: skyblue;
-    font-style: italic;
-    color: rgb(35, 3, 65);
-    font-weight: bolder;
-}
-
 .bvrit {
     padding: 20px;
 }
@@ -57,7 +50,7 @@ h3 {
 
 .col {
     border-radius: 15px 50px;
-    background: rgb(81, 84, 233);
+    background: rgb(243, 154, 82);
     padding: 20px; 
     width: 400px;
     height: 400px;
