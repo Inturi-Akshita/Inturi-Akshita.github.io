@@ -1,11 +1,11 @@
 #my-canvas {
     padding: 80px;
-    margin-left: 350px;
-    margin-right: 350px;
+    /*margin-left: 350px;
+    margin-right: 350px;*/
     margin-top: 50px;
     margin-bottom: 50px;
     display: block;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #heading {
@@ -13,7 +13,7 @@
     margin-top: 30px;
     font-weight: bolder;
     font-style: italic;
-    text-shadow: 3px 3px rgb(248, 237, 74);
+    text-shadow: 3px 3px rgb(250, 250, 246);
     color: rgb(185, 5, 5);
 }
 
