@@ -34,7 +34,7 @@ a:link, a:visited {
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 180px;
-    border: 6px groove rgb(10, 2, 75);
+    /*border: 6px groove rgb(10, 2, 75);*/
     padding-left: 40px;
     padding-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,6 +60,47 @@ a:link, a:visited {
 }
   
 @keyframes mymove {
-    from {background-color: red;}
-    to {background-color: blue;}
+    from {background-color: blue;}
+    to {background-color: red;}
 }
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: maroon;
+    font-family: 'Raleway';
+    font-size: 2.3rem;
+  }
+  .gradient-border {
+    --borderWidth: 10px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #14110e, #fc0831, #3106f1, #06f306, #f10808, #045501, #c9eb08, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
